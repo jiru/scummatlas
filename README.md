@@ -5,6 +5,7 @@ I know the project doesn't follow the standard Golang structure. It's on the tod
 ```bash
 git clone git@github.com:ktzar/scummatlas.git
 cd scummatlas
+export GO111MODULE="auto"
 export GOPATH=`pwd`
 go run src/scummatlas/main/scummatlas.go -gamedir=/path/to/games/monkey2 -outputdir out
 ```
